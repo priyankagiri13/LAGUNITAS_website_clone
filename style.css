@@ -1,0 +1,678 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: Yank;
+    src: url(Yank.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+
+#main{
+    background-color: #F4F1E8;
+    font-family: druk;
+    overflow: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+#bottle{
+    position: absolute;
+    top: 55vh;
+    left: 52vw;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    height: 44vw;
+    z-index: 99;
+    position: fixed;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+}
+#text{
+     position: relative; 
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%); 
+    width: 55%;
+    height: 50%;
+}
+#text h1{
+    text-align: center;
+    line-height: 170px;
+    font-size: 15vw;
+    color: rgb(58, 116, 58) ;
+    font-family: "druk";
+    letter-spacing: 4px;
+}
+#nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+}
+ #leftnav{
+    height: 100vh;
+    width: 6.5vw;
+    border-right: 2px solid black;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+    gap: 10px;
+    z-index: 9999999;
+}
+#leftnav>i{
+    font-size: 30px;
+}
+ #rightnav{
+    position: relative;
+    left: 5%;
+    height:  80px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 25px;
+    position: fixed;
+    gap: 70vw;
+}
+#nav #rightnav img{
+    width: 160px;
+} 
+#rightnav >button{
+    font-family: "druk";
+    font-size: 16px;
+    color: white;
+    background-color: brown;
+    padding: 8px 20px;
+    border: 1px solid brown;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+#page2{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5%;
+} 
+#page2>#left{
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+}
+#page2 #left>h2{
+    font-family: Yank;
+    font-size: 45px;
+    font-weight: 100;
+}
+#page2 #left>h1{
+    width: 20vw;
+    font-size: 6vw;
+    line-height: 12vh;
+}
+#page2 #left>h3{
+    padding-top: 10px;
+    font-family: gilroy;
+    font-size: 1.8vw;
+}
+#page2 #left>p{
+    padding-top: 10px;
+    font-family: gilroy;
+}
+#page2 #left>button{
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-family: druk;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#page2 #right{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+     flex-direction: column;
+    width: 30%;
+    height: 75%;
+    border: 2px solid black;
+    gap: 40px;
+}
+#right .textdiv{
+    font-family: Gilroy;
+    margin: 10px 10px;
+}
+#textdiv1{
+    height:9%;
+    width: 90%;
+    font-size: 15px;
+   border-bottom: 2px solid black;
+}
+#textdiv1 h3{
+    margin-top: -2px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#textdiv1 p{
+    margin-bottom: 15px;
+}
+
+#textdiv2{
+    position: relative;
+    height:19% ;
+    width: 90%;
+    border-bottom: 2px solid black;
+}
+#paranum{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -18%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+    -webkit-box-align: start;
+     -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+#paranum h1{
+      font-size: 40px;
+}
+#paranum p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#textdiv2 h3{
+margin-bottom: px;
+}
+
+#textdiv2 h4{
+    font-size: 14px;
+}
+#textdiv3{
+    position: relative;
+    height:19% ;
+    width: 90%;
+    border-bottom: 2px solid black;
+}
+
+#paranum1{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -18%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+     justify-content: center;
+    gap: 18px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-bottom: 18px;
+}
+#paranum1 h1{
+      font-size: 40px;
+}
+#paranum1 p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#textdiv3 h4{
+    font-size: 16px;
+    margin-top:-20px ;
+}
+#textdiv3 h3{
+    font-size: 16px;
+}
+
+#textdiv4{
+    position: relative;
+    height:15% ;
+    width: 90%;
+}
+#paranum2{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -18%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 16px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    /* padding-bottom: 40px; */
+}
+#paranum2 h1{
+      font-size: 40px;
+}
+#paranum2 p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 8%;
+    margin-top: -10%;
+
+}
+#page3 h1{
+    font-size: 21vw;
+    color: rgb(58, 116, 58) ;
+}
+#page3box{
+    margin-top: -5%;
+   width: 90%;
+   height: 80%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+#imgbox{
+    width: 60%;
+    height: 100%;
+}
+#youtube{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 59%;
+    height: 50%;
+}
+#youtube img{
+    padding-top: -40px;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#youtube button{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+    background: #c8102e;
+    border-radius: 50%;
+    border-color: transparent;
+}
+#youtube button i{
+  color: white;
+  font-size: 25px;
+}
+#imgbox h3{
+    position: relative;
+    top: 12%;
+    font-family: "Yank";
+    font-size: 25px;
+    width: 50%;
+    left: 5%;
+}
+#textbox{
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 7%;
+    }
+    #textbox h2{
+        padding: 10px 5px;
+    }
+#textbox>p{
+    font-family: Arial, Helvetica, sans-serif;
+    width:75% ;
+}
+#page4{
+    position: relative;
+    width: 100vw;
+    height: 130vh;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#pic1{
+    width: 23%;
+    height: 38%;
+   background-image: url(https://lagunitas.com/wp-content/uploads/2022/08/Hoppy-Refresher.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+    -ms-flex-align: center;
+ align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+           flex-direction: column;
+   padding: 30px 0px;
+   padding-left: 30px;
+   
+}
+#pic1>img{
+    width: 4vw;
+}
+#pic1>h3{
+    border-bottom: 2px solid black;
+}
+#pic1>p{
+    font-family: 8px;
+    font-family: gilroy;
+    width: 70%;
+    padding-left: 6px;
+    padding-top: 10px;
+
+}
+#pic2{
+    position: relative;
+    top: -10%;
+    left: 19%;
+    width: 26%;
+    height: 48%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2022/08/Hoppy-Refresher.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+     flex-direction: column;
+    padding: 40px 0px;
+    padding-left:5%;
+}
+#pic3>img{
+    width: 4vw;
+}
+
+#pic2>h3{
+    border-bottom: 2px solid black;
+}
+#pic2>p{
+    font-family: 8px;
+    font-family: gilroy;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#pic3{
+    position: relative;
+    top: -70%;
+    right:-55%;
+    width: 28%;
+    height: 55%;
+   background-image: url(https://lagunitas.com/wp-content/themes/lagunitas/assets/images/splat-black.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0px;
+    padding-left:5%;
+    color: white;
+}
+#pic3>h3{
+    border-bottom: 2px solid white;
+}
+#pic3>p{
+    font-family: 7px;
+    font-family: gilroy;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+#page4 #glassdiv{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    height: 54%;
+    width: 24%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/Hoppy-Refresher-Mason-Jar-671x1024.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform:rotate(-20deg);
+        -ms-transform:rotate(-20deg);
+            transform:rotate(-20deg);
+}
+
+#page5{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#page5-text{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 20%;
+    height: 17%;
+    text-align: center;
+}
+#page5-text h3{
+    font-size: 23px;
+    font-family: "Yank";
+}
+#page5-text h1{
+    font-size: 5vw;
+}
+#page5-box{
+    position: relative;
+    top: 33%;
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page5-box>img{
+    -webkit-transition: all ease;
+    -o-transition: all ease;
+    transition: all ease;
+}
+
+#img1{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+#img2{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 3%;
+}
+#img2 img{
+    height: 35vw;
+}
+#img3{
+    height: 120%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 5%;
+    /* padding-bottom: -5%; */
+}
+#img3 img{
+    -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    height: 28vw;
+    padding-left: 14%;
+    opacity: 0;
+}
+#img4{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 8%;
+}
+#img5{
+    height: 90%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 1%;
+
+}
+#page6{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5%;
+}
+#page6-left{
+    width: 50%;
+    height: 100%;
+}
+#page6-left #imgbox{
+    position: relative;
+    top: 23%;
+    left: 10%;
+    width: 70%;
+    height: 60%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/MicrosoftTeams-image-33-1024x683.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#page6-right{
+    margin-top: 8%;
+    width: 40%;
+    height: 100%;
+    margin-left: 40px;
+}
+#page6 #page6-right>h2{
+    font-family: Yank;
+    font-size: 40px;
+    font-weight: 100;
+}
+#page6 #page6-right>h1{
+    width: 19vw;
+    font-size: 5vw;
+    line-height: 10vh;
+}
+#page6 #page6-right>h3{
+    padding-top: 13px;
+    font-family: gilroy;
+    font-size: 1.5vw;
+}
+#page6 #page6-right>p{
+    padding-top: 13px;
+    font-family: gilroy;
+    font-size: 17px;
+}
+#page6 #page6-right>button{
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 8px 28px;
+    font-family: druk;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
