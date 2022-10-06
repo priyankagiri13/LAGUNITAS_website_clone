@@ -30,10 +30,10 @@ body::-webkit-scrollbar {
 #bottle{
     position: absolute;
     top: 55vh;
-    left: 52vw;
+    left: 49vw;
     -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     height: 44vw;
     z-index: 99;
     position: fixed;
