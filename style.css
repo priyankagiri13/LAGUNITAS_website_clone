@@ -3,7 +3,7 @@
     margin: 0%;
     padding: 0%;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+     box-sizing: border-box;
 }
 html,body{
     width: 100%;
@@ -47,8 +47,8 @@ body::-webkit-scrollbar {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%); 
+     -ms-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%); 
     width: 55%;
     height: 50%;
 }
@@ -75,12 +75,12 @@ body::-webkit-scrollbar {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+     flex-direction: column;
     padding-top: 30px;
     gap: 10px;
     z-index: 9999999;
@@ -186,7 +186,7 @@ body::-webkit-scrollbar {
    border-bottom: 2px solid black;
 }
 #textdiv1 h3{
-    margin-top: -2px;
+    margin-top: -3px;
     font-size: 17px;
     margin-bottom: 5px;
 }
@@ -247,8 +247,8 @@ margin-bottom: px;
      justify-content: center;
     gap: 18px;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     padding-bottom: 18px;
 }
 #paranum1 h1{
@@ -284,7 +284,6 @@ margin-bottom: px;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    /* padding-bottom: 40px; */
 }
 #paranum2 h1{
       font-size: 40px;
