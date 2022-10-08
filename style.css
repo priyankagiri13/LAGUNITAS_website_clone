@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 #bottle{
     position: absolute;
     top: 55vh;
-    left: 50vw;
+    left: 48vw;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 }
 #text h1{
     text-align: center;
-    line-height: 170px;
+    line-height: 190px;
     font-size: 15vw;
     color: rgb(58, 116, 58) ;
     font-family: "druk";
