@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 }
 #text h1{
     text-align: center;
-    line-height: 190px;
+    line-height: 1.3;
     font-size: 15vw;
     color: rgb(58, 116, 58) ;
     font-family: "druk";
